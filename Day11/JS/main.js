@@ -120,36 +120,45 @@
 //     console.log ('Extreme obesity')
 // }
 
-let day = prompt('Fill the day');
+// let day = prompt('Fill the day');
 
-let dayNumber = Number(day);
+// let dayNumber = Number(day);
 
-let dayName;
-console.log(typeof(dayNumber));
+// let dayName;
+// console.log(typeof(dayNumber));
 
- switch(dayNumber){
-    case 1:
-        dayName = 'Monday'
-        break;
-    case 2:
-        dayName = 'tue'
-        break;
-    case 3:
-        dayName = 'Wed'
-        break;
-    case 4:
-        dayName = 'Thurs'
-        break;  
-    case 5:
-        dayName = 'Fri'
-        break;
-    case 6:
-        dayName = 'Sat'
-        break;
-    case 7:
-        dayName = 'Sun'
-        break;
-    default:
-        dayName = 'Invalid day'
- }
- console.log(dayName);
+//  switch(dayNumber){
+//     case 1:
+//         dayName = 'Monday'
+//         break;
+//     case 2:
+//         dayName = 'tue'
+//         break;
+//     case 3:
+//         dayName = 'Wed'
+//         break;
+//     case 4:
+//         dayName = 'Thurs'
+//         break;  
+//     case 5:
+//         dayName = 'Fri'
+//         break;
+//     case 6:
+//         dayName = 'Sat'
+//         break;
+//     case 7:
+//         dayName = 'Sun'
+//         break;
+//     default:
+//         dayName = 'Invalid day'
+//  }
+//  console.log(dayName);
+
+// let myNumber = (4 > 3);
+// console.log(myNumber);
+
+// let myNumber = (4 >= 3);
+// console.log(myNumber);
+
+let myNumber = (4 < 3);
+// console.log(myNumber);
