@@ -66,7 +66,7 @@ console.log(Math.sqrt(81));
 
 //     console.log(Math.floor(Math.random() * (max - min) + min))) <= 5) {
 //     console.log(count);
-//     count = count +1;
+//     count = count + 1;
 
 
 // console.log('loop starts');
