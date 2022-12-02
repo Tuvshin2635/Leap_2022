@@ -69,15 +69,33 @@
 //     console.log(num + " is a prime number");
 // }
 
-let x = 1;
-let y = 2;
-while (x <= 100) {
-    if (x % y == 0) {
+// let x = 1;
+// let y = 2;
+// while (x <= 100) {
+//     if (x % y == 0) {
 
+//     }
+//     y++;
+// }
+
+let a = Number(prompt('duriin too'));
+let anxnii = true;
+if (a === 2) {
+    console.log('anxnii too mun mun') 
+} else {
+    let x = 2;
+    while (x < a) {
+        if (a % x === 0) {
+            anxnii = false;
+            break;
+        }
+        x++;
     }
-    y++;
-}
 
+if (anxnii) {
+    console.log('Anxnii too mun bna');
+} else console.log('anxnii too bish');
+}
 
 
 //     if  (count%2 !==0) {
