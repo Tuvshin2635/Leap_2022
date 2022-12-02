@@ -119,11 +119,20 @@ console.log(Math.sqrt(81));
 // let answer = prompt ('togloxuu?');
 let answer = "yes";
 
-while (answer == "yes"){
-    answer = prompt ('togloxuu?' .toLowerCase())
+while (answer == "yes") {
+    answer = prompt('togloxuu?'.toLowerCase())
     if (answer == 'yes') {
-        alert('thanks') }
-} 
+        alert('thanks')
+    }
+}
 console.log('game over');
 
 
+let count = 1;
+let sum = 0;
+
+while (count <= x) {
+    sum = sum + count;
+    console.log(count);
+    count = count + 1;
+}
