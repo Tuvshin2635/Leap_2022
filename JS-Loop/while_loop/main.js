@@ -11,24 +11,24 @@ if (min = a) {
 
 
 
-// let a = Number(prompt('duriin too'));
-// let anxnii = true;
-// if (a === 2) {
-//     console.log('anxnii too mun mun')
-// } else {
-//     let x = 2;
-//     while (x < a) {
-//         if (a % x === 0) {
-//             anxnii = false;
-//             break;
-//         }
-//         x++;
-//     }
+let a = Number(prompt('duriin too'));
+let anxnii = true;
+if (a === 2) {
+    console.log('anxnii too mun mun')
+} else {
+    let x = 2;
+    while (x < a) {
+        if (a % x === 0) {
+            anxnii = false;
+            break;
+        }
+        x++;
+    }
 
-//     if (anxnii) {
-//         console.log('Anxnii too mun bna');
-//     } else console.log('anxnii too bish');
-// }
+    if (anxnii) {
+        console.log('Anxnii too mun bna');
+    } else console.log('anxnii too bish');
+}
 
 
 // if ( ) {
