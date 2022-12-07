@@ -1,6 +1,6 @@
 //  Exercise #1
 
-let num1 =prompt('give A numnber?');
+let num1 =prompt('give A number?');
 let num2 =prompt('give B number?');
 
 function findMax(x,y) {
