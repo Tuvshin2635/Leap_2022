@@ -1,7 +1,7 @@
-console.log('Suragchid');
+console.log(' === Suragchid ===');
 
 
-let studnets = [
+let students = [
     {
         name: 'Gonjig',
         birthOfYear: 1999,
@@ -16,37 +16,51 @@ let studnets = [
     },
     {
         name: 'tsetseg',
-        birthOfYear: 2008,
+        birthOfYear: 2000,
         hobby: 'cars',
         isSingle: false,
     },
     {
         name: 'Odko',
-        birthOfYear: 1988,
+        birthOfYear: '1988',
         hobby: 'shopping',
         isSingle: true,
     },
 ]
 
-console.log(`2. Сурагчидаас 20 - оос дээш насны сурагчидыг буцаах function бичэх`);
+console.log(` === Сурагчидаас 20 - оос дээш насны сурагчидыг буцаах function бичэх ===`);
 
 let currentYear = 2022;
-
-function adultAgeStudents (array) {
-    for ( let i=0; i<array.length; i++) {
-        if ( (currentYear - students.birthOfYear[i])>=20) {
-            console.log(students.name + `you are Adult` );
-        } else {}
-        }
+function adultAgeStudents(array) {
+    for (let i = 0; i < array.length; i++) {
+        if ((currentYear - array[i].birthOfYear) >= 20) {
+            console.log(array[i].name + ` you are Adult`);
+        } else { }
+    }
 }
 
-adultAgeStudents(studnets);
+adultAgeStudents(students);
 
-// function howDoesTheFoxSay(array, animalsType) {
-    
-//     for (let i=0; i<array.length; i++) {
-//             console.log((array[i].sound + '-' + array[i].sound +'-'+ array[i].sound ));
-            
-//     }
+console.log(`===Surachdiin nasiig olon function bichix===`);
+let year = 0;
+function ageOfStudents(array) {
+    for (let i = 0; i < array.length; i++) {
+        year = currentYear - array[i].birthOfYear
+        console.log(array[i].name + `  ` + year + ` - years old`);
+    }
+}
 
-// }
+ageOfStudents(students);
+
+
+console.log(`===Gants biy mun esex===`);
+let relationship = true;
+function isSingleStudents(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].isSingle == "true"){
+        console.log(array[i].name + ` gants biy oyutan`);
+}
+    }
+}
+
+isSingleStudents(students);
