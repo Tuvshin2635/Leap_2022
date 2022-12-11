@@ -1,5 +1,6 @@
 /** 
-1. Array - ын хувьсагчийг itCompanies гэж зарлаж, Facebook, Google, Microsoft, 
+1. Array - ын хувьсагчийг itCompanies гэж зарлаж, Facebook, 
+Google, Microsoft, 
     Apple, IBM, Oracle, Amazon зэрэг анхны утгыг оруулна уу.
 2. Array - аас эхний 3 компанийг хайчилж ав
 3. Array - аас сүүлийн 3 компанийг хайчилж ав
@@ -20,21 +21,20 @@ for ( i=0; i<3; i++) {
 }
 
 console.log('= = = = = = = = = = = = #3 = = = = = = = = = = = = = = = =');
-
-for ( i=0; i<itCompanies.length; i++) {
+console.log(`Lenght of Companies ` + itCompanies.length);
+for ( i=4; i<itCompanies.length; i++) {
     console.log(itCompanies[i]);
 }
 
-
-
-
-
 console.log('= = = = = = = = = = = = #4 = = = = = = = = = = = = = = = =');
-
-
+let itCompanies3 = itCompanies.slice(1,5);
+console.log(itCompanies3);
 
 
 console.log('= = = = = = = = = = = = #5 = = = = = = = = = = = = = = = =');
+let itCompanies2 = itCompanies.slice(1);
+console.log(itCompanies2);
 
+console.log('= = = = = = = = = = = = #6 = = = = = = = = = = = = = = = =');
 
 

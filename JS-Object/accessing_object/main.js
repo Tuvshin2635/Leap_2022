@@ -10,7 +10,7 @@ let students = [
     {
         name: 'Сэд-Эрдэнэ',
         age: 19,
-        gender: 'male',
+        gender: "male",
     },
     {
         name: 'Индра',
@@ -38,9 +38,28 @@ console.log(`===Eregtei oyutanii too===`);
 let count = 0;
 function howManyMale(array) {
     for (let i = 0; i < array.length; i++) {
-        if (array[i].gender === "male"){
-} console.log(`Niit eregtei oyutanii ` + count[i]+1 );
+        if (array[i].gender !== "female") {
+        } console.log(`Niit eregtei oyutan ` + count[i]);
     }
 }
 
 howManyMale(students);
+
+
+// console.log(`===Emegtei oyutanii too===`);
+// function howManyFemale(array){
+//     for (let i = 0; i<array.length; i++){
+//         if (array[i].gender === "female") {
+//         } console.log(`Niit eregtei oyutan ` + count[i]);
+//     }
+// }
+// howManyFemale(students);
+
+
+
+console.log(`===Dundaj nas===`);
+function avaregeAge(array) {
+    for ( let i=0; i<array.length; i++){
+        (age[i] + age)
+    }
+}
