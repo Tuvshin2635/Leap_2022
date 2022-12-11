@@ -21,9 +21,6 @@ console.log('= = = = = = = = = = = = #3 = = = = = = = = = = = = = = = =');
 console.log(itCompanies[0]);
 console.log(itCompanies[6]);
 
-console.log(itCompanies.length[((Math.random() * 6) + 1)]); // dundaas n randon avah gj oroldson
-
-
 console.log('= = = = = = = = = = = = #4 = = = = = = = = = = = = = = = =');
 
 for (i = 0; i < itCompanies.length; i++) {
@@ -32,7 +29,9 @@ for (i = 0; i < itCompanies.length; i++) {
 console.log('= = = = = = = = = = = = #5 = = = = = = = = = = = = = = = =');
 
 for (i=0;  i<itCompanies.length; i++) {
-    itCompanies[i] = itCompanies[i];
-    console.log(itCompanies.toLocalupperCase());
+    console.log(itCompanies[i].toLocaleUpperCase());
 }
 
+console.log('= = = = = = = = = = = = #6 = = = = = = = = = = = = = = = =');
+ 
+console.log(itCompanies.join(` `) + `зэрэг мэдээллийн технологийн томоохон компаниуд юм.`);
