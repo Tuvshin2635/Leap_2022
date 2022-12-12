@@ -32,48 +32,64 @@ let students = [
         age: 23,
         gender: "female",
     },
-] 
+]
 
-console.log(`===Eregtei oyutanii too===`);
+console.log(`===Eregtei,emegtei oyutanii too===`);
 
-// function howManyMale(array) {
-//     for (let i = 0; i < array.length; i++) {
-//         for (let j = 0; j < array.length[j]; j++) {
-//             if (gender[j] == "male") {
-//                 console.log(array[i][j]);
-//             }
-//         }
-//     }
-// }
+let maleCount = 0;
+let femaleCount =0;
 
 function howManyMale(array) {
     for (let i = 0; i < array.length; i++) {
-            if (gender[i][j] == "male") {
-                console.log(array[j]);
-            }
+        if (array[i].gender == "male") {
+            maleCount = maleCount + 1;
+        } else {
+            femaleCount = femaleCount +1;
         }
     }
-
-
-
-
+    console.log(maleCount + ' - Niit eregtei');
+    console.log(femaleCount + ' - Niit emegtei');
+}
 howManyMale(students);
 
+console.log(`===Dundaj nas===`);
 
-// console.log(`===Emegtei oyutanii too===`);
-// function howManyFemale(array){
-//     for (let i = 0; i<array.length; i++){
-//         if (array[i].gender === "female") {
-//         } console.log(`Niit eregtei oyutan ` + count[i]);
+let sum = 0;
+
+function avaregeAge(array) {
+    for ( let i=0; i<array.length; i++){
+        sum = sum +array[i].age;
+        avaregeAge = sum/array.length;
+    }
+    console.log(avaregeAge + " - Dundaj nas");
+}
+
+avaregeAge(students);
+
+console.log(`===ovog nemj oruulax===`);
+
+function giveName(count, givenName) {
+    students[count].Lastname = givenName;
+}
+
+// function sameAge () {
+//     for ( let i = 0; i<array[i].length; i++){
+//         if ( age[i] == age[i]){
+//             sameAge.push = (array1);
+//         }
 //     }
-// }
-// howManyFemale(students);
+// } console.log(array1);
 
+// sameAge(students)
 
+let sameAge = [];
 
-// console.log(`===Dundaj nas===`);
-// function avaregeAge(array) {
-//     for ( let i=0; i<array.length; i++){
-//         (age[i] + age)
-//     }
-// }
+for (let i = 0; i < students.length; i++) {
+    for (let j = i + 1; j < students.length; j++) {
+        if (students[i].age === students[j].age) {
+            sameAge.push(students[i], students[j])
+        }
+    }
+}
+
+console.log(sameAge);
