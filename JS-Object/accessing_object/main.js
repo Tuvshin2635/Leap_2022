@@ -32,16 +32,30 @@ let students = [
         age: 23,
         gender: "female",
     },
-]
+] 
 
 console.log(`===Eregtei oyutanii too===`);
-let count = 0;
+
+// function howManyMale(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         for (let j = 0; j < array.length[j]; j++) {
+//             if (gender[j] == "male") {
+//                 console.log(array[i][j]);
+//             }
+//         }
+//     }
+// }
+
 function howManyMale(array) {
     for (let i = 0; i < array.length; i++) {
-        if (array[i].gender !== "female") {
-        } console.log(`Niit eregtei oyutan ` + count[i]);
+            if (gender[i][j] == "male") {
+                console.log(array[j]);
+            }
+        }
     }
-}
+
+
+
 
 howManyMale(students);
 
@@ -57,9 +71,9 @@ howManyMale(students);
 
 
 
-console.log(`===Dundaj nas===`);
-function avaregeAge(array) {
-    for ( let i=0; i<array.length; i++){
-        (age[i] + age)
-    }
-}
+// console.log(`===Dundaj nas===`);
+// function avaregeAge(array) {
+//     for ( let i=0; i<array.length; i++){
+//         (age[i] + age)
+//     }
+// }
