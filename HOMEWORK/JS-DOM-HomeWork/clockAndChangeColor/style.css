@@ -1,0 +1,10 @@
+h1{
+    color: black;
+    text-align: center;
+}
+#myBtn {
+    font-size: 30px;
+    border: 1px solid hidden;
+    border-radius: 15px;
+    background-color: gold;
+}
