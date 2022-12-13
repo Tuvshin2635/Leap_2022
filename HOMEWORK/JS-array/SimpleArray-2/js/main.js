@@ -37,4 +37,7 @@ console.log(itCompanies2);
 
 console.log('= = = = = = = = = = = = #6 = = = = = = = = = = = = = = = =');
 
-
+let itCompanies4 = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+const poppedValue = itCompanies4.pop();
+console.log(poppedValue);
+console.log(itCompanies4);
