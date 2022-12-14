@@ -21,7 +21,6 @@ if ( emaile.value.includes('@' , '.') && password.value.length>=8 && password.va
    return true;
 }  
 
-
     //жишээ хэрэглээ
     console.log("Email input ийн урт: ", inputs.email.value.length);
     return false;
