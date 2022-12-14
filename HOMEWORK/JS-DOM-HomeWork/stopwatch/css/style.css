@@ -6,3 +6,10 @@ h1{
     background-color: lightcyan;
 
 }
+button {
+    border: 1px solid salmon;
+    background-color: beige;
+    color: brown;
+    
+}
+

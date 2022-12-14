@@ -5,7 +5,7 @@ let startTimer = document.getElementById('startTimer');
 startTimer.addEventListener("click", runTimerInterval);
 
 function runTimerInterval ( ) {
-    window.setInterval(startInterval, 300);
+    window.setInterval(startInterval, 100);
 }
 
 

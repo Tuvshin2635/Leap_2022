@@ -1,6 +1,6 @@
 // Date part
 let presentTime = new Date();
-let shortDate = presentTime.getFullYear() + ' - ' + presentTime.getMonth() + ' - ' + presentTime.getDate();
+let shortDate = ' Он cар өдөр  ' + presentTime.getFullYear() + ' - ' + presentTime.getMonth() + ' - ' + presentTime.getDate();
 document.getElementById("presentTime").innerHTML = shortDate;
 
 // TODO APP
