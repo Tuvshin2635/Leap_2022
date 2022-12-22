@@ -1,0 +1,21 @@
+h1{
+    color: khaki;
+    text-align: center;
+}
+*{
+    background-color: lightcyan;
+    text-align: center;
+
+}
+button {
+    border: 1px solid salmon;
+    background-color: beige;
+    color: brown;
+}
+.color_Feild {
+    margin-left: 36%;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px dotted black  ;
+}
