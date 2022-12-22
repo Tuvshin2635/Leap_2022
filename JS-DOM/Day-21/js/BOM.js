@@ -44,7 +44,6 @@ function runTimerInterval ( ) {
     window.setInterval(startInterval, 1000);
 }
 
-
 function startInterval() {
     let now = new Date();
     let myTimer = document.getElementById('myTimer');
@@ -52,5 +51,3 @@ function startInterval() {
     console.log(counter);
     counter++
 }
-
-

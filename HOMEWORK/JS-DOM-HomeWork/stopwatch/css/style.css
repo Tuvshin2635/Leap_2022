@@ -1,0 +1,15 @@
+h1{
+    color: khaki;
+    text-align: center;
+}
+*{
+    background-color: lightcyan;
+
+}
+button {
+    border: 1px solid salmon;
+    background-color: beige;
+    color: brown;
+    
+}
+
