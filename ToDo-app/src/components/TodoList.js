@@ -13,10 +13,20 @@ function TodoList() {
     console.log(...todos);
   };
 
+  const completeTodo = (id) => {
+    let updatedTodos = todos.map((todo) => {
+      if (todo.id === id) {
+        todo.isComplete = !todo.isComplete;
+      }
+      return todo;
+    });
+  };
+
   return (
     <div>
       <h1> Whats plan for Today ??? </h1>
       <TodoForm onsubmit={addTodo} />
+      {/* <Todo todos={todos} completeTodo={completeTodo} /> */}
     </div>
   );
 }
